@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    font-family: Inter, sans-serif;
+    background-color: #111;
+    overflow-x: hidden;
+}
+
+li{
+  list-style: none;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.box{
+    position: fixed;
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
+    z-index: 11111111111;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 3px crimson, 0px 0px 15px 6px rgb(185, 16, 50);
+}
+
+/* Circle behind */
+.nav-container a{
+    color: #FFF;
+      text-decoration: none;
+      font: 16px Inter;
+      margin: 0px 10px;
+      padding: 10px 10px;
+      position: relative;
+      z-index: 0;
+      cursor: pointer;
+  }
+
+  
+  
+  
+  div.circleBehind a:before, div.circleBehind a:after
+  {
+      position: absolute;
+      top: 22px;
+      left: 50%;
+      width: 28px;
+      height: 28px;
+      border: 4px solid crimson;
+      transform: translateX(-50%) translateY(-50%) scale(0.8);
+      border-radius: 50%;
+      background: transparent;
+      content: "";
+      opacity: 0;
+      transition: all 0.3s;
+      z-index: -1;
+  }
+  
+  div.circleBehind a:after
+  {
+      border-width: 2px;
+      transition: all 0.4s;
+  }
+  
+  div.circleBehind a:hover:before
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  
+  div.circleBehind a:focus:before
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1);
+  }
+  
+  div.circleBehind a:hover:after
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1.3);
+  }
+  div.circleBehind a:focus:after
+  {
+      opacity: 1;
+      transform: translateX(-50%) translateY(-50%) scale(1.3);
+  }
+  
+  
+
+  .v-container{
+    height: 100vh;
+    /* width: 100%; */
+    background-color:#00000077;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    top:0; */
+    position: relative;
+  }
+  .v-container > .content{
+    text-align: center;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content >div> h1{
+    font-size: 45px;
+    /* margin-bottom:50px ; */
+    color:#FFF;
+  }
+  .content>div > a{
+    font: 22px;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 18px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    
+  }
+  .background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .btn-translate:hover i{
+    transform: translateX(5px);
+  }
+
+  @media (min-aspect-ratio: 16/9) {
+    .background-clip{
+        width: 100%;
+        height: auto;
+    }
+  }
+
+  
+  @media (max-aspect-ratio:16/9) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+  }
+
+  @media screen and (max-width:800px) {
+    .v-container{
+        background-image: linear-gradient(#000000bb, #000000bb), url("./assets/responsive-back.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        height: 102vh;
+        /* padding: 10px 0px; */
+        padding-top: 10px;
+    }
+    
+    nav{
+      visibility: hidden;
+    }
+    .content > div>h1{
+      font-size: 25px;
+    }
+
+    .background-clip{
+        visibility: hidden;
+    }
+    .box{
+        visibility: hidden;
+    }
+  }
