@@ -40,7 +40,7 @@ const Home = () => {
                         </a>
                     </div>
 
-                    <a className="text-white hover:text-lg"><i className="ri-file-list-2-line"></i> <span>Resume</span></a>
+                    <a download href="https://drive.google.com/file/d/1TjHRULn23GRtNGDpl4oXIYjpNkuAoB8Q/view" className="text-white hover:text-lg"><i className="ri-file-list-2-line"></i> <span>Resume</span></a>
                 </div>
            </div>
         </div>
