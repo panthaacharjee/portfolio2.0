@@ -54,8 +54,7 @@ const Navbar = () => {
               <div className="nav-container blue circleBehind">
                   <Link to="/">HOME</Link>
                   <Link to="/project">PROJECT</Link>
-                  <Link to="/skill">ABOUT</Link>
-                  <Link to="/contact">CONTACT</Link>
+                  <Link to="/skill">SKILL</Link>
               </div>
           </div>
       </nav>

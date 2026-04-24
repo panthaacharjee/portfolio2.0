@@ -18,25 +18,25 @@ const Skill = () => {
             <p className="text-white font-mont text-2xl md:text-4xl font-semibold text-center">.</p>
             <div style={{width:"90%", margin:"0px auto", marginTop:"30px"}}>
                 <div className="flex flex-col md:flex-row">
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={js} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Javascript</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={node} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Node JS</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={git} className=" h-28 w-30"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Git Source Control</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={mongodb} className=" h-32 w-32"/>
                         </div>
@@ -44,25 +44,25 @@ const Skill = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row mt-0 md:mt-5">
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={redux} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Redux JS</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={aws} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">AWS Server Service</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={react} className=" h-28 w-30"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">React JS</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={vps} className=" h-32 w-32"/>
                         </div>
@@ -70,25 +70,25 @@ const Skill = () => {
                     </div>
                 </div>
                 <div className="flex flex-col md:flex-row mt-0 md:mt-5">
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={html} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Html</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={css} className=" h-32 w-32"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">CSS</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={tailwind} className=" h-28 w-30"/>
                         </div>
                         <p className="font-mont text-white font-medium text-xl">Tailwind CSS</p>
                     </div>
-                    <div className=" bg-slate-700 hover:bg-crimson  w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
+                    <div className=" bg-slate-700   w-full md:w-6/12 lg:w-3/12  flex flex-col items-center justify-center py-2 rounded-xl h-60 mr-0 md:mr-5 mt-2 md:mt-2">
                         <div className="h-32">
                             <img src={sql} className=" h-32 w-32"/>
                         </div>
